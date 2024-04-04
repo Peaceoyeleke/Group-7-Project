@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Recipe Catalog</title>
+    <link rel="stylesheet" href="Recipe catalo.css">
 </head>
 <body>
     <header>
@@ -11,10 +12,23 @@
             Recipe Catalog
         </h1>
     </header>
-    <main>
-        <div class="recipes">
-            
-        </div>
-    </main>
+<div id="recipe-list">
+    <h2>Recipes</h2>
+    <ul id="recipes"></ul>
+</div>
+<div id="add-recipe">
+    <h2>Add New Recipe</h2>
+    <form id="add-recipe-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" required></textarea>
+        <button type="submit">Add Recipe</button>
+    </form>
+</div>
+<div id="edit-recipe" style="display: none;">
+    <h2>Edit Recipe</h2>
+    <form id="edit-recipe-form"></form>
+</div>
 </body>
 </html>
