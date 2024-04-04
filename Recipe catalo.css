@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lime;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+#recipesContainer {
+    margin-top: 20px;
+}
