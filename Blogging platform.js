@@ -53,6 +53,12 @@ function login(event) {
     displayHomePage();
 }
 
+//function welcome
+function welcome(){
+    var username = document.getElementById("username").value;
+    alert("Hi," + username + "!");
+}
+
 // Function to add a comment to a post
 function addComment(postId) {
     const comment = document.getElementById(`comment_${postId}`).value;
